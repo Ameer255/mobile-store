@@ -1,0 +1,109 @@
+body{
+    background-color: aqua;
+
+}
+.link{
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+}
+.h1 h1{
+    color: blue;
+}
+.h1 p{
+    color: brown;
+}
+.parent{
+    border: 3px solid red;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.child{
+    border: 1px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 450px;
+    width: 350px;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.img-div{
+    
+    height: 60%;
+    width: 95%;
+
+}
+.detail-div{
+   
+    height: 25%;
+    width: 95%;
+}
+.btn-div{
+    
+    height: 15%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    color: yellow;
+    padding: 12px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.btn-add:hover{
+    border: 2px solid black;
+    background-color: rgb(252, 144, 3);
+    color: black;
+    transition: background-color 0.2s linear;
+}
+.btn-add:active{
+    border: 2px solid black;
+    background-color: rgb(252, 144, 3);
+    color: black;
+    transition: background-color 0.3s linear;
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.detail-div h4{
+    padding-left: 5px;
+}
+.detail-div p{
+    padding-left: 5px;
+}
+.btn-add{
+    color: rgb(252, 144, 3);
+    background-color: black;
+    cursor: pointer;
+}
+.btn-buy{
+    color: black;
+    background-color: rgb(252, 144, 3);
+    cursor: pointer;
+}
+.btn-buy:hover{
+    border: 2px solid rgb(252, 144, 3);
+    background-color: black;
+    color: rgb(252, 144, 3);
+    transition: background-color 0.3s linear;
+
+}
+.btn-buy:active{
+    border: 2px solid rgb(252, 144, 3);
+    background-color: black;
+    color: rgb(252, 144, 3);
+    transition: background-color 0.3s linear;
+}
+
+
